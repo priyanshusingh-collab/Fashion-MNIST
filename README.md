@@ -23,8 +23,7 @@ A simple architecture is used to fit the data into the model, which has fewer th
 Summary of the Model.
 
 ![parameter](https://user-images.githubusercontent.com/58718943/210721119-3e62db5d-b51a-407c-9abe-18fc9738d319.jpg)
-
 <br />
 Furthermore, because Y<sub>i </sub> are integers and not one-hot encoded, "sparse categorical cross-entropy" is used for the determination of loss, and the Adam algorithm is used for the optimization of parameters.
 <br />
-
+After training for 20 epochs, the model achieved an accuracy of 92% on the training dataset and 88% on the validation dataset.
