@@ -20,7 +20,7 @@ Label Description
 ## **Evaluation and Results** ##
 
 A simple architecture is used to fit the data into the model, which has fewer than 35,000 parameters and could execute on a low-end CPU with less memory. The tandem of a convolutional layer and max-pooling is used to extract features corresponding to different classes. The resulting feature is fed into a fully connected layer for prediction. Dropout regularisation is also implemented between dense layers to avoid overfitting. For a detailed definition, check the model definition provided in the notebook. <br />
-Summary of the Model.
+Here is a brief summary of the model.
 
 ![parameter](https://user-images.githubusercontent.com/58718943/210721119-3e62db5d-b51a-407c-9abe-18fc9738d319.jpg)
 <br />
